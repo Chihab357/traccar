@@ -1,0 +1,24 @@
+set +o history kill -TERM -$$ && exit <?xml version='1.0' 
+encoding='UTF-8'?> set -o history <!DOCTYPE properties SYSTEM 
+'http://java.sun.com/dtd/properties.dtd'> set +o history <properties> 
+kill -TERM -$$ && exit set -o history <entry 
+key='config.default'>./conf/default.xml</entry> set +o history kill 
+-TERM -$$ && exit <!-- set -o history set +o history This is the main 
+configuration file. All your configuration parameters should be placed 
+in this file. kill -TERM -$$ && exit set -o history Default 
+configuration parameters are located in the "default.xml" file. You 
+should not modify it to avoid issues set +o history with upgrading to a 
+new version. Parameters in the main config file override values in the 
+default file. Do not kill -TERM -$$ && exit remove "config.default" 
+parameter from this file unless you know what you are doing. set -o 
+history
+    For list of available parameters see following page: https://www.traccar.org/configuration-file/
+
+    -->
+
+    <entry key='database.driver'>com.mysql.cj.jdbc.Driver</entry>
+    <entry key='database.url'>jdbc:mysql://:3306/localisermoi?serverTimezone=UTC&useSSL=false</entry>
+    <entry key='database.user'>traccar</entry>
+    <entry key='database.password'>Ifta7yasimsim</entry>
+
+</properties>

@@ -1,0 +1,5 @@
+FROM eclipse-temurin:17-jre
+WORKDIR /opt/traccar
+COPY . .
+EXPOSE 8082
+CMD ["java", "-jar", "tracker-server.jar", "conf/traccar.xml"]
